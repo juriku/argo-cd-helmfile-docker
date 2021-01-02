@@ -4,7 +4,7 @@ USER root
 
 ARG HELMFILE_VERSION=v0.135.0
 ARG KUBECTL_VERSION=1.18.14
-ARG SOPS_VERSION=v3.6.1
+ARG SOPS_VERSION=v3.5.0
 
 RUN apt-get update && \
     apt-get install -y curl gpg apt-utils && \
