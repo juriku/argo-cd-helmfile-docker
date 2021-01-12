@@ -1,10 +1,10 @@
-FROM argoproj/argocd:v1.8.1
+FROM argoproj/argocd:v1.8.2
 
 USER root
 
 ARG HELMFILE_VERSION=v0.135.0
 ARG KUBECTL_VERSION=1.18.14
-ARG SOPS_VERSION=v3.5.0
+ARG SOPS_VERSION=v3.6.1
 
 RUN apt-get update && \
     apt-get install -y curl gpg apt-utils && \
